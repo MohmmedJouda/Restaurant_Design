@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<!--makes text on the page from right to left-->
+<html dir="rtl">
+
+<head>
+    <title>Al Haneeth Heritage Restaurant</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Tajawal:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Css_Style/font-awesome.min.css">
+    <link rel="stylesheet" href="Css_Style/style.css">
+</head>
+
+<body>
+
+
+    <a id="top" href="#"></a>
+    <header>
+        <div class="logo">
+            <img src="Picture/logo.jpg" alt="Logo of Restaurant">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#top">الرئيسية</a></li>
+                <li><a href="#meals">وجبات</a></li>
+                <li><a href="#services">خدمات</a></li>
+                <li><a href="#">فريق العمل</a></li>
+                <li><a href="#">اطلب وجبتك</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.facebook.com/ahmedj.abunasser" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ahmed_jameel_20/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/LOGIN" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" target="_blank"></i></a>
+            <a href="https://www.google.com" target="_blank"><i class="fa fa-google"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </header>
+    <section class="home">
+        <div class="Interface">
+            <div class="home-content">
+                <div class="home-description">
+                    <img src="Picture/lable2.gif" alt="Home Logo ">
+                    <h2>لأشهى المأكولات البحرية والشعبية</h2>
+                    <button class="order">
+                        أطلب الآن
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="meals pd-y" id="meals">
+        <div class="container">
+            <div class="meals-choices pd-y">
+                <button class="lunch-button" onclick="Lunch()">وجبة الغذاء</button>
+                <button class="Breakfast-button" onclick="Breakfast()">وجبة الإفطار</button>
+                <button class="rest active" onclick="RestaurantMeal()">وجبة المطعم</button>
+            </div>
+          
+                <div class="meals-menu">
+                    <div class="restaurant show">
+                        <div class="restaurant-item">
+                            <img src="Picture/1.jpg">
+                            <div class="restaurant-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : Chicken's Chest</span>
+                                    <span class="price">السعر 75$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="restaurant-item">
+                            <img src="Picture/2.jpg">
+                            <div class="restaurant-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : Schnitzel</span>
+                                    <span class="price">السعر 60$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="restaurant-item">
+                            <img src="Picture/3.jpg">
+                            <div class="restaurant-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : Chicken thighs</span>
+                                    <span class="price">السعر 80$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="breakfast">
+                        <div class="breakfast-item">
+                            <img src="Picture/4.jpg">
+                            <div class="breakfast-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : Starters food</span>
+                                    <span class="price">السعر 40$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star "></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="breakfast-item">
+                            <img src="Picture/5.jpg">
+                            <div class="breakfast-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : Shawerma</span>
+                                    <span class="price">السعر 50$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="breakfast-item">
+                            <img src="Picture/6.jpg">
+                            <div class="breakfast-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : Kebab</span>
+                                    <span class="price">السعر 35$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="lunch">
+                        <div class="lunch-item">
+                            <img src="Picture/7.jpg">
+                            <div class="lunch-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : spaghetti</span>
+                                    <span class="price">السعر20$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="lunch-item">
+                            <img src="Picture/8.jpg">
+                            <div class="lunch-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : Beef steak</span>
+                                    <span class="price">السعر 50$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="lunch-item">
+                            <img src="Picture/9.jpg">
+                            <div class="lunch-item-description">
+                                <div>
+                                    <span class="name">اسم الوجبة : Pizza</span>
+                                    <span class="price">السعر 40$</span>
+                                </div>
+                                <br>
+                                <span class="availabile">متاح</span>
+                                <div class="stars-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+          
+        </div>
+
+    </section>
+
+    <section class="services pd-y" id="services">
+        <div class="overlay">
+            <div class="container">
+                <div class="services-content">
+                    <h2>خدمات</h2>
+                    <div class="services-item">
+                        <img src="Picture/new.gif">
+                        <h3>عروض متجددة</h3>
+                        <p>المطعم هو مكان تقدم فيه الماكولات والمشروبات للزبائن. تم تشغيل المطاعم في بداية الأمر على
+                            جوانب طرق السفر ليتمكن المسافرون من التوقف للراحة واستعادة حيويتهم. أما اليوم فإن المطاعم
+                            تكاد تكون في كل مكان في الشوارع الهادئة والطرق
+                            المزدحمة وفي الفنادق والمطارات ومحطات الحافات والقطارات. وكذلك في المتنزهات والمباني التي
+                            تضم المكاتب وفي مراكز التسوق. تشكل المطاعم الجزء الأكبر في صناعة خدعة الطعام وتشكل المحلات
+                            التي تقدم الطعام للناس خارج بيوتهم جزعا عن
+                            هذه الصناعة بما فيها المدارس والمستشفيات والمصانع والسجون.</p>
+                    </div>
+
+                    <div class="services-item">
+                        <img src="Picture/gift.gif">
+                        <h3>هدايا</h3>
+                        <p>المطعم هو مكان تقدم فيه الماكولات والمشروبات للزبائن. تم تشغيل المطاعم في بداية الأمر على
+                            جوانب طرق السفر ليتمكن المسافرون من التوقف للراحة واستعادة حيويتهم. أما اليوم فإن المطاعم
+                            تكاد تكون في كل مكان في الشوارع الهادئة والطرق
+                            المزدحمة وفي الفنادق والمطارات ومحطات الحافات والقطارات. وكذلك في المتنزهات والمباني التي
+                            تضم المكاتب وفي مراكز التسوق. تشكل المطاعم الجزء الأكبر في صناعة خدعة الطعام وتشكل المحلات
+                            التي تقدم الطعام للناس خارج بيوتهم جزعا عن
+                            هذه الصناعة بما فيها المدارس والمستشفيات والمصانع والسجون.</p>
+                    </div>
+
+                    <div class="services-item">
+                        <img src="Picture/delever.gif">
+                        <h3>خدمة التوصيل</h3>
+                        <p>المطعم هو مكان تقدم فيه الماكولات والمشروبات للزبائن. تم تشغيل المطاعم في بداية الأمر على
+                            جوانب طرق السفر ليتمكن المسافرون من التوقف للراحة واستعادة حيويتهم. أما اليوم فإن المطاعم
+                            تكاد تكون في كل مكان في الشوارع الهادئة والطرق
+                            المزدحمة وفي الفنادق والمطارات ومحطات الحافات والقطارات. وكذلك في المتنزهات والمباني التي
+                            تضم المكاتب وفي مراكز التسوق. تشكل المطاعم الجزء الأكبر في صناعة خدعة الطعام وتشكل المحلات
+                            التي تقدم الطعام للناس خارج بيوتهم جزعا عن
+                            هذه الصناعة بما فيها المدارس والمستشفيات والمصانع والسجون.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="r-meals pd-y" id="r-meals">
+        <div class="container">
+            <h2>وجبات المطعم</h2>
+
+            <div class="breakfast show">
+
+                <div class="breakfast-item">
+                    <img src="Picture/5.jpg">
+                    <div class="breakfast-item-description">
+                        <div>
+                            <span class="name">اسم الوجبة : Shawerma</span>
+                            <span class="price">السعر 50$</span>
+                        </div>
+                        <br>
+                        <span class="availabile">متاح</span>
+                        <div class="stars-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="breakfast-item">
+                    <img src="Picture/4.jpg">
+                    <div class="breakfast-item-description">
+                        <div>
+                            <span class="name">اسم الوجبة : Starters food</span>
+                            <span class="price">السعر 40$</span>
+                        </div>
+                        <br>
+                        <span class="availabile">متاح</span>
+                        <div class="stars-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star "></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="breakfast-item">
+                    <img src="Picture/6.jpg">
+                    <div class="breakfast-item-description">
+                        <div>
+                            <span class="name">اسم الوجبة : Kebab</span>
+                            <span class="price">السعر 35$</span>
+                        </div>
+                        <br>
+                        <span class="availabile">متاح</span>
+                        <div class="stars-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="lunch show">
+                <div class="lunch-item">
+                    <img src="Picture/7.jpg">
+                    <div class="lunch-item-description">
+                        <div>
+                            <span class="name">اسم الوجبة : spaghetti</span>
+                            <span class="price">السعر20$</span>
+                        </div>
+                        <br>
+                        <span class="availabile">متاح</span>
+                        <div class="stars-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="lunch-item">
+                    <img src="Picture/9.jpg">
+                    <div class="lunch-item-description">
+                        <div>
+                            <span class="name">اسم الوجبة : Pizza</span>
+                            <span class="price">السعر 40$</span>
+                        </div>
+                        <br>
+                        <span class="availabile">متاح</span>
+                        <div class="stars-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="lunch-item">
+                    <img src="Picture/8.jpg">
+                    <div class="lunch-item-description">
+                        <div>
+                            <span class="name">اسم الوجبة : Beef steak</span>
+                            <span class="price">السعر 50$</span>
+                        </div>
+                        <br>
+                        <span class="availabile">متاح</span>
+                        <div class="stars-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="map">
+        <span><i class="fa fa-map"></i> الخريطة</span>
+        <div>
+            <div class="mapouter">
+                <div class="gmap-canvas">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="contact" id="contact">
+        <span><i class="fa fa-phone"></i>اتصل بنا</span>
+        <div class="container">
+            <div class="contact-info">
+                <h3>بيانات التواصل</h3>
+                <div class="contact-item">
+                    <a href="#">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    <a href="#">mjouda181@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <a href="#">
+                        <i class="fa fa-phone"></i>
+                    </a>
+                    <a href="#" dir="ltr">00972 599108787</a>
+                </div>
+                <div class="contact-item">
+                    <a href="#">
+                        <i class="fa fa-mobile"></i>
+                    </a>
+                    <a href="#" dir="ltr">08 2111111</a>
+                </div>
+                <div class="contact-item">
+                    <a href="#">
+                        <i class="fa fa-globe"></i>
+                    </a>
+                    <a href="#">WWW.Dataway.Com</a>
+                </div>
+                <div class="subscribe">
+                    <form action="" method="">
+                        <label for="subs">اشترك معنا بالقائمة البريدية</label>
+                        <input type="email" id="sub-email" placeholder="البريد الالكتروني">
+                        <strong id="subscribe-message" style="display:inline-block;"></strong>
+                    </form>
+                    <button class="click" onclick="CheckTheEmail()">اشترك الآن</button>
+                </div>
+            </div>
+
+            <div class="quick-links">
+                <h3>روابط سريعة</h3>
+                <a href="#"><i class="fa fa-check-circle"></i>الرئيسية</a>
+                <a href="#services"><i class="fa fa-check-circle"></i>الخدمات</a>
+                <a href="#meals"><i class="fa fa-check-circle"></i>وجبات</a>
+                <a href="#"><i class="fa fa-check-circle"></i>فريق العمل</a>
+                <a href="#"><i class="fa fa-check-circle"></i>اطلب وجبتك</a>
+                <a href="#contact"><i class="fa fa-check-circle"></i>اتصل بنا</a>
+            </div>
+            <div class="send-message">
+                <h3>أرسل رسالة الآن</h3>
+                <form action="" method="post" autocomplete="off">
+                    <input type="text" id="name" placeholder="الاسم">
+                    <strong id="name-msg"></strong>
+                    <input type="email" id="msg-email" placeholder="البريد الالكتروني">
+                    <strong id="email-msg"></strong>
+                    <textarea id="message" cols="30" rows="5" placeholder="رسالة دعم لنا "></textarea>
+                    <strong id="msg"></strong>
+                </form>
+                <button class="click" onclick="CheckTheMessage()">ارسل الآن</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="Picture/lable3.gif" alt="This is Logo !">
+                <span>جميع الحقوق محفوظة 2020</span>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/LOGIN" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube" target="_blank"></i></a>
+                <a href="https://www.google.com" target="_blank"><i class="fa fa-google"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="Java Script File/script.js"></script>
+</body>
+
+</html>
