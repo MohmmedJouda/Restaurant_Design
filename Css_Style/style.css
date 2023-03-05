@@ -86,6 +86,9 @@ header .nav ul li a {
 header .logo img {
     height: 72px;
 }
+header .logo img {
+
+}
 
 header .nav ul li a:hover {
     color: #a8534c;
